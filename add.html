@@ -1,0 +1,41 @@
+<html>
+    <link
+			href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+			rel="stylesheet">
+
+    <link rel="stylesheet" href="addstyle.css">
+    <body>
+        <form method="POST" action="/upload" enctype="multipart/form-data" >
+            <div id="header">
+                <div class="form">
+                    <div class="form-ele">
+                <input type="file" name="image" class="card-cta">
+            </div>
+                <div class="form-ele">
+            <input type="text" name="cname" class="card-cta">
+        </div>
+        <div class="form-ele">
+        <input type="text" name="type" value="pant/shirt" class="card-cta">
+    </div>
+                <!-- <button class="select-image">Select Image</button> -->
+            </div><br><br><br>
+            <!-- <input type="file" name="image" >
+            <input type="text" name="cname" > -->
+            
+            <select name="coll" id="random" class="card-cta">
+                <div class="form-ele">
+                <option value="ethenics">ETHNIC</option>
+                <option value="western">WESTERN</option>
+                <option value="casuals">CASUALS</option>
+                <option value="formals">FORMALS</option>
+            </div>
+            </select><br>
+            <div class="form-ele">
+            <button class="card-cta">Select Type</button>
+        </div>
+        
+    </div>
+        </form>
+        <script src="script.js"></script>
+    </body>
+</html>
