@@ -8,5 +8,4 @@ This is a overview of my project\
 
 
 
-Uploading vi.mp4…
 
